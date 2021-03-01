@@ -115,7 +115,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name key="CZ" type="country">Czech Republic</name>
+               <name type="country" key="CZ">Czech Republic</name>
                <date when="2014-09-10" ana="#parla.sitting">2014-09-10</date>
             </setting>
          </settingDesc>
@@ -413,7 +413,7 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u1.p3.s2.w3" lemma="já" msd="UPosTag=PRON|Case=Ins|Number=Plur|Person=1|PronType=Prs">námi</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u1.p3.s2.w4" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">pana</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u1.p3.s2.w5" lemma="senátor" msd="UPosTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">senátora</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.ne12"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.ne13">
@@ -470,7 +470,7 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u1.p3.s3.w20" lemma="a" msd="UPosTag=CCONJ">a</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u1.p3.s3.w21" lemma="ministr" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">ministr</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u1.p3.s3.w22" lemma="finance" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos">financí</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.ne16"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.ne17">
@@ -1152,7 +1152,7 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u3.p1.s2.w13" lemma="výbor" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">výboru</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u3.p1.s2.w14" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">pan</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.u3.p1.s2.w15" lemma="poslanec" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">poslanec</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.ne35"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2014-09-10-ps2013-016-01-002-002.ne36">

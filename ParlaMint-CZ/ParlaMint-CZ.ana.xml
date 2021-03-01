@@ -670,6 +670,25 @@
                <desc xml:lang="en">
                   <term>CNEC 2.0 Named Entities</term>
                </desc>
+               <category xml:id="NER.cnec2.0.P">
+                  <catDesc xml:lang="en">
+                     <term>person name</term>
+                  </catDesc>
+               </category>
+               <category xml:id="NER.cnec2.0.T">
+                  <catDesc xml:lang="en">
+                     <term>temporal expression</term>
+                  </catDesc>
+               </category>
+               <category xml:id="NER.cnec2.0.A">
+                  <catDesc xml:lang="en">
+                     <term>address</term>
+                  </catDesc>
+               </category>
+               <category xml:id="NER.cnec2.0.C">
+                  <catDesc xml:lang="en">
+                     <term>bibliographic</term>: Bibliographic item</catDesc>
+               </category>
                <category xml:id="NER.cnec2.0.t">
                   <catDesc xml:lang="en">
                      <term>time</term>: Time expression</catDesc>
@@ -966,7 +985,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name key="CZ" type="country">Czech Republic</name>
+               <name type="country" key="CZ">Czech Republic</name>
                <date from="2014-09-10" to="2020-11-19">10.09.2014 - 19.11.2020</date>
             </setting>
          </settingDesc>
@@ -24342,6 +24361,9 @@
                   </persName>
                   <sex value="F">ženské</sex>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5938</idno>
+                  <affiliation ref="#interparliamentaryFriendshipGroup.AZE.1462"
+                               role="member"
+                               from="2021-02-26T00:00:00"/>
                   <affiliation ref="#committee.KV.1306" role="verifier" from="2019-01-10T00:00:00"/>
                   <affiliation ref="#committee.KV.1306" role="member" from="2018-12-07T09:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IR.1466"

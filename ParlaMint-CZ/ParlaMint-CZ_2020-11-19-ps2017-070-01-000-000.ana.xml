@@ -114,7 +114,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name key="CZ" type="country">Czech Republic</name>
+               <name type="country" key="CZ">Czech Republic</name>
                <date when="2020-11-19" ana="#parla.sitting">2020-11-19</date>
             </setting>
          </settingDesc>
@@ -615,7 +615,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p3.s2.w1" lemma="já" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" join="right">Já</w>
                      <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p3.s2.w2"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne9"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne10">
@@ -786,7 +786,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p4.s2.w6" lemma="pošta" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos">poštou</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p4.s2.w7" lemma="v" msd="UPosTag=ADP|AdpType=Prep|Case=Acc">v</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p4.s2.w8" lemma="pondělí" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos">pondělí</w>
-                     <date ana="ne:t" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne16">
+                     <date ana="ne:T" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne16">
                         <date ana="ne:td" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne17">
                            <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p4.s2.w9" lemma="16" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">16</w>
                            <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p4.s2.w10"
@@ -872,7 +872,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s2.w6" lemma="určit" msd="UPosTag=VERB|Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">určili</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s2.w7" lemma="paní" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">paní</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s2.w8" lemma="poslankyně" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne20"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne21">
@@ -884,7 +884,7 @@
                      </name>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s2.w11" lemma="a" msd="UPosTag=CCONJ">a</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s2.w12" lemma="poslankyně" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne23"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne24">
@@ -1038,7 +1038,7 @@
                      <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s7.w5"
                          msd="UPosTag=PUNCT">-</pc>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p5.s7.w6" lemma="poslankyně" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne26"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne27">
@@ -1164,7 +1164,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p6.s2.w19" lemma="schůze" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos">schůze</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p6.s2.w20" lemma="paní" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">paní</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u1.p6.s2.w21" lemma="předsedkyně" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">předsedkyně</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne29"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne30">
@@ -2236,7 +2236,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p4.s3.w8" lemma="schůze" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos">schůze</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p4.s3.w9" lemma="určit" msd="UPosTag=VERB|Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">určili</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p4.s3.w10" lemma="poslankyně" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne40"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne41">
@@ -2248,7 +2248,7 @@
                      </name>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p4.s3.w13" lemma="a" msd="UPosTag=CCONJ">a</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p4.s3.w14" lemma="poslankyně" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne43"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne44">
@@ -2428,7 +2428,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s1.w5" lemma="poslanec" msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur|Polarity=Pos" join="right">poslanci</w>
                      <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s1.w6"
                          msd="UPosTag=PUNCT">,</pc>
-                     <date ana="ne:t" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne46">
+                     <date ana="ne:T" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne46">
                         <date ana="ne:td" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne47">
                            <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s1.w7" lemma="5" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">5</w>
                            <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s1.w8"
@@ -2687,7 +2687,7 @@
                      </num>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w8" lemma="schůze" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos">schůzi</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w9" lemma="den" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">dne</w>
-                     <date ana="ne:t" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne60">
+                     <date ana="ne:T" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne60">
                         <date ana="ne:td" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne61">
                            <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w10" lemma="30" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">30</w>
                            <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w11"
@@ -2717,7 +2717,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w27" lemma="nouzový" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos">nouzového</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w28" lemma="stav" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">stavu</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w29" lemma="do" msd="UPosTag=ADP|AdpType=Prep|Case=Gen">do</w>
-                     <date ana="ne:t" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne64">
+                     <date ana="ne:T" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne64">
                         <date ana="ne:td" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne65">
                            <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w30" lemma="20" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">20</w>
                            <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p6.s2.w31"
@@ -2949,7 +2949,7 @@
                   </s>
                   <s xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2">
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w1" lemma="den" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">Dne</w>
-                     <date ana="ne:t" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne74">
+                     <date ana="ne:T" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne74">
                         <date ana="ne:td" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne75">
                            <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w2" lemma="16" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">16</w>
                            <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w3"
@@ -2997,7 +2997,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w27" lemma="a" msd="UPosTag=CCONJ">a</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w28" lemma="to" msd="UPosTag=PART">to</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w29" lemma="do" msd="UPosTag=ADP|AdpType=Prep|Case=Gen">do</w>
-                     <date ana="ne:t" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne79">
+                     <date ana="ne:T" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne79">
                         <date ana="ne:td" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne80">
                            <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w30" lemma="20" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">20</w>
                            <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p7.s2.w31"
@@ -3272,7 +3272,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w2" lemma="se" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short">se</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w3" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">pan</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w4" lemma="ministr" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">ministr</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne87"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne88">
@@ -3287,7 +3287,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w9" lemma="důvod" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos" join="right">důvodů</w>
                      <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w10"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne90"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne91">
@@ -3307,7 +3307,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w18" lemma="důvod" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos" join="right">důvodů</w>
                      <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w19"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne94"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne95">
@@ -3323,7 +3323,7 @@
                      <pc xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w25"
                          msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w26" lemma="ale" msd="UPosTag=CCONJ">ale</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne97"
                            type="PER">
                         <name ana="ne:pf" xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne98">
@@ -3344,7 +3344,7 @@
                          msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w36" lemma="paní" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">paní</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w37" lemma="ministryně" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">ministryně</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne100"
                            type="PER">
                         <name ana="ne:pf"
@@ -3386,7 +3386,7 @@
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w57" lemma="a" msd="UPosTag=CCONJ">a</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w58" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">pan</w>
                      <w xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.u3.p9.s2.w59" lemma="ministr" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">ministr</w>
-                     <name ana="ne:p"
+                     <name ana="ne:P"
                            xml:id="ParlaMint-CZ_2020-11-19-ps2017-070-01-000-000.ne105"
                            type="PER">
                         <name ana="ne:pf"
