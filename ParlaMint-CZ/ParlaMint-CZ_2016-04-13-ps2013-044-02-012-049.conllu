@@ -1,0 +1,1186 @@
+# newdoc id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p1
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p1.s1
+# text = 49.
+1	49	49	NUM	_	NumForm=Digit|NumType=Card	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p1.s2
+# text = Vládní návrh zákona, kterým se mění zákon č. 38/2004 Sb., o pojišťovacích zprostředkovatelích a samostatných likvidátorech pojistných událostí a o změně živnostenského zákona (zákon o pojišťovacích zprostředkovatelích a likvidátorech pojistných událostí), ve znění pozdějších předpisů /sněmovní tisk 751/ - prvé čtení
+1	Vládní	vládní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	NER=O
+2	návrh	návrh	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O
+3	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	NER=O
+5	kterým	který	DET	_	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	7	obl	_	NER=O
+6	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	7	expl:pass	_	NER=O
+7	mění	měnit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	NER=O
+8	zákon	zákon	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	nsubj:pass	_	NER=B-MISC
+9	č	číslo	NOUN	_	Abbr=Yes|Gender=Neut|Polarity=Pos	8	nmod	_	NER=I-MISC|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	NER=I-MISC
+11	38	38	NUM	_	NumForm=Digit|NumType=Card	9	nummod	_	NER=I-MISC|SpaceAfter=No
+12	/	/	PUNCT	_	_	13	punct	_	NER=I-MISC|SpaceAfter=No
+13	2004	2004	NUM	_	NumForm=Digit|NumType=Card	11	compound	_	NER=I-MISC
+14	Sb	Sb	NOUN	_	Abbr=Yes|Gender=Fem|Polarity=Pos	8	nmod	_	NER=I-MISC|SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	NER=I-MISC|SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	NER=I-MISC
+17	o	o	ADP	_	AdpType=Prep|Case=Loc	19	case	_	NER=I-MISC
+18	pojišťovacích	pojišťovací	ADJ	_	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	_	NER=I-MISC
+19	zprostředkovatelích	zprostředkovatel	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	8	nmod	_	NER=I-MISC
+20	a	a	CCONJ	_	_	22	cc	_	NER=I-MISC
+21	samostatných	samostatný	ADJ	_	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	_	NER=I-MISC
+22	likvidátorech	likvidátor	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	19	conj	_	NER=I-MISC
+23	pojistných	pojistný	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	24	amod	_	NER=I-MISC
+24	událostí	událost	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	22	nmod	_	NER=I-MISC
+25	a	a	CCONJ	_	_	27	cc	_	NER=O
+26	o	o	ADP	_	AdpType=Prep|Case=Loc	27	case	_	NER=O
+27	změně	změna	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	19	conj	_	NER=O
+28	živnostenského	živnostenský	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	29	amod	_	NER=O
+29	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	27	nmod	_	NER=O
+30	(	(	PUNCT	_	_	31	punct	_	NER=O|SpaceAfter=No
+31	zákon	zákon	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	27	dep	_	NER=B-MISC
+32	o	o	ADP	_	AdpType=Prep|Case=Loc	34	case	_	NER=I-MISC
+33	pojišťovacích	pojišťovací	ADJ	_	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	34	amod	_	NER=I-MISC
+34	zprostředkovatelích	zprostředkovatel	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	31	nmod	_	NER=I-MISC
+35	a	a	CCONJ	_	_	36	cc	_	NER=I-MISC
+36	likvidátorech	likvidátor	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	34	conj	_	NER=I-MISC
+37	pojistných	pojistný	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	38	amod	_	NER=I-MISC
+38	událostí	událost	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	36	nmod	_	NER=I-MISC|SpaceAfter=No
+39	)	)	PUNCT	_	_	31	punct	_	NER=O|SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	NER=O
+41	ve	v	ADP	_	AdpType=Voc|Case=Loc	42	case	_	NER=O
+42	znění	znění	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+43	pozdějších	pozdní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	44	amod	_	NER=O
+44	předpisů	předpis	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	42	nmod	_	NER=O
+45	/	/	PUNCT	_	_	47	punct	_	NER=O|SpaceAfter=No
+46	sněmovní	sněmovní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	47	amod	_	NER=O
+47	tisk	tisk	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	44	dep	_	NER=O
+48	751	751	NUM	_	NumForm=Digit|NumType=Card	47	nummod	_	NER=O|SpaceAfter=No
+49	/	/	PUNCT	_	_	47	punct	_	NER=O
+50	-	-	PUNCT	_	_	52	punct	_	NER=O
+51	prvé	prvý	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	52	amod	_	NER=O
+52	čtení	čtení	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	47	conj	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p2
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p2.s1
+# text = Navrhovatel i zpravodaj jsou stejní jako předešle.
+1	Navrhovatel	navrhovatel	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	_	NER=O
+2	i	i	CCONJ	_	_	3	cc	_	NER=O
+3	zpravodaj	zpravodaj	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	1	conj	_	NER=O
+4	jsou	být	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
+5	stejní	stejný	ADJ	_	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	NER=O
+6	jako	jako	SCONJ	_	_	7	mark	_	NER=O
+7	předešle	předejít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p2.s2
+# text = To znamená, že z pověření vlády předložený návrh uvede místopředseda vlády a ministr financí Andrej Babiš.
+1	To	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	NER=O
+2	znamená	znamenat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	10	punct	_	NER=O
+4	že	že	SCONJ	_	_	10	mark	_	NER=O
+5	z	z	ADP	_	AdpType=Prep|Case=Gen	6	case	_	NER=O
+6	pověření	pověření	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	10	obl	_	NER=O
+7	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
+8	předložený	předložený	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	NER=O
+9	návrh	návrh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	10	obj	_	NER=O
+10	uvede	uvést	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	NER=O
+11	místopředseda	místopředseda	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	16	nmod	_	NER=O
+12	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	_	NER=O
+13	a	a	CCONJ	_	_	14	cc	_	NER=O
+14	ministr	ministr	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	conj	_	NER=O
+15	financí	finance	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	14	nmod	_	NER=O
+16	Andrej	Andrej	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	10	nsubj	_	NER=B-PER
+17	Babiš	Babiš	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	16	flat	_	NER=I-PER|SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u1.p2.s3
+# text = Prosím, pane místopředsedo vlády, máte slovo.
+1	Prosím	prosit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	NER=O
+4	místopředsedo	místopředseda	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	1	vocative	_	NER=O
+5	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	NER=O
+7	máte	mít	VERB	_	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	NER=O
+8	slovo	slovo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	7	obj	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p1
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p1.s1
+# text = Děkuji za slovo.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	za	za	ADP	_	AdpType=Prep|Case=Acc	3	case	_	NER=O
+3	slovo	slovo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p1.s2
+# text = Vážený pane předsedo, vážené dámy, vážení pánové, předkládaná novela zákona o pojišťovacích zprostředkovatelích, na níž panuje koaliční shoda, je výsledkem debaty, která k danému tématu trvala téměř jeden rok.
+1	Vážený	vážený	ADJ	_	Animacy=Anim|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	NER=O
+2	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	NER=O
+3	předsedo	předseda	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	25	dep	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	NER=O
+5	vážené	vážený	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	6	amod	_	NER=O
+6	dámy	dáma	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	3	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	NER=O
+8	vážení	vážený	ADJ	_	Animacy=Anim|Case=Voc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	_	NER=O
+9	pánové	pán	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur|Polarity=Pos	6	conj	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	NER=O
+11	předkládaná	předkládaný	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	_	NER=O
+12	novela	novela	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	25	nsubj	_	NER=O
+13	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	12	nmod	_	NER=O
+14	o	o	ADP	_	AdpType=Prep|Case=Loc	16	case	_	NER=O
+15	pojišťovacích	pojišťovací	ADJ	_	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	_	NER=O
+16	zprostředkovatelích	zprostředkovatel	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	13	nmod	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	NER=O
+18	na	na	ADP	_	AdpType=Prep|Case=Loc	19	case	_	NER=O
+19	níž	jenž	PRON	_	Case=Loc|Gender=Fem|Number=Sing|PrepCase=Pre|PronType=Rel	20	obl	_	NER=O
+20	panuje	panovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	NER=O
+21	koaliční	koaliční	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	22	amod	_	NER=O
+22	shoda	shoda	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	20	nsubj	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	NER=O
+24	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	NER=O
+25	výsledkem	výsledek	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O
+26	debaty	debata	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	25	nmod	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	_	_	32	punct	_	NER=O
+28	která	který	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	32	nsubj	_	NER=O
+29	k	k	ADP	_	AdpType=Prep|Case=Dat	31	case	_	NER=O
+30	danému	daný	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	31	amod	_	NER=O
+31	tématu	téma	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	32	obl	_	NER=O
+32	trvala	trvat	VERB	_	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	26	acl:relcl	_	NER=O
+33	téměř	téměř	ADV	_	_	35	advmod:emph	_	NER=O
+34	jeden	jeden	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	35	nummod	_	NER=O
+35	rok	rok	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	32	obl	_	NER=O|SpaceAfter=No
+36	.	.	PUNCT	_	_	25	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p2
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p2.s1
+# text = Vládní návrh zákona nově upravuje některé finanční vztahy, který vyplývají z předčasného ukončení sjednaného životního pojištění.
+1	Vládní	vládní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	NER=O
+2	návrh	návrh	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	_	NER=O
+3	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+4	nově	nově	ADV	_	Degree=Pos|Polarity=Pos	5	advmod	_	NER=O
+5	upravuje	upravovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+6	některé	některý	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	NER=O
+7	finanční	finanční	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	_	NER=O
+8	vztahy	vztah	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	5	obj	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	NER=O
+10	který	který	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	11	nsubj	_	NER=O
+11	vyplývají	vyplývat	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	NER=O
+12	z	z	ADP	_	AdpType=Prep|Case=Gen	14	case	_	NER=O
+13	předčasného	předčasný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	14	amod	_	NER=O
+14	ukončení	ukončení	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	11	obl:arg	_	NER=O
+15	sjednaného	sjednaný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	amod	_	NER=O
+16	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	amod	_	NER=O
+17	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	14	nmod	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p2.s2
+# text = Jedná se na straně jedné o způsob určení odměny za zprostředkování pojištění, na straně druhé pak o určení výše odkupného, které klientům pojišťovny vyplácejí při stornu investičního nebo kapitálového životního pojištění.
+1	Jedná	jednat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	NER=O
+3	na	na	ADP	_	AdpType=Prep|Case=Loc	4	case	_	NER=O
+4	straně	strana	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	1	obl	_	NER=O
+5	jedné	jeden	NUM	_	Case=Loc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	4	nummod	_	NER=O
+6	o	o	ADP	_	AdpType=Prep|Case=Acc	7	case	_	NER=O
+7	způsob	způsob	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O
+8	určení	určení	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	7	nmod	_	NER=O
+9	odměny	odměna	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	_	NER=O
+10	za	za	ADP	_	AdpType=Prep|Case=Acc	11	case	_	NER=O
+11	zprostředkování	zprostředkování	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	9	nmod	_	NER=O
+12	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	11	nmod	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	NER=O
+14	na	na	ADP	_	AdpType=Prep|Case=Loc	15	case	_	NER=O
+15	straně	strana	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	1	conj	_	NER=O
+16	druhé	druhý	ADJ	_	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	NER=O
+17	pak	pak	ADV	_	_	15	orphan	_	NER=O
+18	o	o	ADP	_	AdpType=Prep|Case=Acc	19	case	_	NER=O
+19	určení	určení	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	15	orphan	_	NER=O
+20	výše	výše	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	19	nmod	_	NER=O
+21	odkupného	odkupný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	20	amod	_	NER=O|SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	NER=O
+23	které	který	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	26	obj	_	NER=O
+24	klientům	klient	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	26	obl:arg	_	NER=O
+25	pojišťovny	pojišťovna	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	24	nmod	_	NER=O
+26	vyplácejí	vyplácet	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	NER=O
+27	při	při	ADP	_	AdpType=Prep|Case=Loc	28	case	_	NER=O
+28	stornu	storno	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	26	obl	_	NER=O
+29	investičního	investiční	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	33	amod	_	NER=O
+30	nebo	nebo	CCONJ	_	_	31	cc	_	NER=O
+31	kapitálového	kapitálový	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	29	conj	_	NER=O
+32	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	33	amod	_	NER=O
+33	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	28	nmod	_	NER=O|SpaceAfter=No
+34	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3.s1
+# text = Cílem navrhované předlohy je omezení negativních jevů, které jsou s předčasným ukončováním životních pojištění spojeny.
+1	Cílem	cíl	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O
+2	navrhované	navrhovaný	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	NER=O
+3	předlohy	předloha	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	_	NER=O
+4	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O
+5	omezení	omezení	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	nsubj	_	NER=O
+6	negativních	negativní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	_	NER=O
+7	jevů	jev	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	16	punct	_	NER=O
+9	které	který	DET	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	16	nsubj	_	NER=O
+10	jsou	být	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	NER=O
+11	s	s	ADP	_	AdpType=Prep|Case=Ins	13	case	_	NER=O
+12	předčasným	předčasný	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	amod	_	NER=O
+13	ukončováním	ukončování	NOUN	_	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	16	obl:arg	_	NER=O
+14	životních	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	15	amod	_	NER=O
+15	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	13	nmod	_	NER=O
+16	spojeny	spojený	ADJ	_	Animacy=Inan|Aspect=Perf|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3.s2
+# text = Tím je jednak časté přepojišťování klientů v prvních letech trvání životního pojištění, které je motivováno vysokým podílem předplacené části provize sjednané mezi pojišťovnou a pojišťovacím zprostředkovatelem.
+1	Tím	ten	DET	_	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	0	root	_	NER=O
+2	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O
+3	jednak	jednak	CCONJ	_	_	1	cc	_	NER=O
+4	časté	častý	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	přepojišťování	přepojišťování	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	nsubj	_	NER=O
+6	klientů	klient	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	_	NER=O
+7	v	v	ADP	_	AdpType=Prep|Case=Loc	9	case	_	NER=O
+8	prvních	první	ADJ	_	Case=Loc|Gender=Neut|Number=Plur|NumType=Ord	9	amod	_	NER=O
+9	letech	rok	NOUN	_	Case=Loc|Gender=Neut|Number=Plur|Polarity=Pos	5	nmod	_	NER=O
+10	trvání	trvání	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	9	nmod	_	NER=O
+11	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	_	NER=O
+12	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	10	nmod	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	NER=O
+14	které	který	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	16	nsubj:pass	_	NER=O
+15	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	NER=O
+16	motivováno	motivovaný	ADJ	_	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	amod	_	NER=O
+17	vysokým	vysoký	ADJ	_	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	_	NER=O
+18	podílem	podíl	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	16	obl:arg	_	NER=O
+19	předplacené	předplacený	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	_	NER=O
+20	části	část	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	18	nmod	_	NER=O
+21	provize	provize	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	20	nmod	_	NER=O
+22	sjednané	sjednaný	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	_	NER=O
+23	mezi	mezi	ADP	_	AdpType=Prep|Case=Ins	24	case	_	NER=O
+24	pojišťovnou	pojišťovna	NOUN	_	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	22	obl	_	NER=O
+25	a	a	CCONJ	_	_	27	cc	_	NER=O
+26	pojišťovacím	pojišťovací	ADJ	_	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	27	amod	_	NER=O
+27	zprostředkovatelem	zprostředkovatel	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	24	conj	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3.s3
+# text = To pak vede i ke zmíněné nízké hodnotě odkupného pro klienty, do které pojišťovna vyplacené provize či jiné druhy pořizovacích nákladů v plném rozsahu promítá.
+1	To	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	NER=O
+2	pak	pak	ADV	_	_	3	advmod	_	NER=O
+3	vede	vést	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	i	i	CCONJ	_	_	8	advmod:emph	_	NER=O
+5	ke	k	ADP	_	AdpType=Voc|Case=Dat	8	case	_	NER=O
+6	zmíněné	zmíněný	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	NER=O
+7	nízké	nízký	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	NER=O
+8	hodnotě	hodnota	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	3	obl:arg	_	NER=O
+9	odkupného	odkupný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	_	NER=O
+10	pro	pro	ADP	_	AdpType=Prep|Case=Acc	11	case	_	NER=O
+11	klienty	klient	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	8	nmod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	26	punct	_	NER=O
+13	do	do	ADP	_	AdpType=Prep|Case=Gen	14	case	_	NER=O
+14	které	který	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	26	obl	_	NER=O
+15	pojišťovna	pojišťovna	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	26	nsubj	_	NER=O
+16	vyplacené	vyplacený	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	_	NER=O
+17	provize	provize	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	26	obj	_	NER=O
+18	či	či	CCONJ	_	_	20	cc	_	NER=O
+19	jiné	jiný	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	20	amod	_	NER=O
+20	druhy	druh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	17	conj	_	NER=O
+21	pořizovacích	pořizovací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	_	NER=O
+22	nákladů	náklad	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	20	nmod	_	NER=O
+23	v	v	ADP	_	AdpType=Prep|Case=Loc	25	case	_	NER=O
+24	plném	plný	ADJ	_	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	25	amod	_	NER=O
+25	rozsahu	rozsah	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	26	obl	_	NER=O
+26	promítá	promítat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3.s4
+# text = Navržená úprava regulace provizí zavádí povinnost vrátit poměrnou část sjednané provize v případě, že pojištění skončí předčasně během prvních pěti let svého trvání.
+1	Navržená	navržený	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	NER=O
+2	úprava	úprava	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	_	NER=O
+3	regulace	regulace	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+4	provizí	provize	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	3	nmod	_	NER=O
+5	zavádí	zavádět	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+6	povinnost	povinnost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	_	NER=O
+7	vrátit	vrátit	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	acl	_	NER=O
+8	poměrnou	poměrný	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	_	NER=O
+9	část	část	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	7	obj	_	NER=O
+10	sjednané	sjednaný	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	_	NER=O
+11	provize	provize	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	NER=O
+12	v	v	ADP	_	AdpType=Prep|Case=Loc	13	case	_	NER=O
+13	případě	případ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	NER=O
+15	že	že	SCONJ	_	_	17	mark	_	NER=O
+16	pojištění	pojištění	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	17	nsubj	_	NER=O
+17	skončí	skončit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	NER=O
+18	předčasně	předčasně	ADV	_	Degree=Pos|Polarity=Pos	17	advmod	_	NER=O
+19	během	během	ADP	_	AdpType=Prep|Case=Gen	22	case	_	NER=O
+20	prvních	první	ADJ	_	Case=Gen|Gender=Neut|Number=Plur|NumType=Ord	22	amod	_	NER=O
+21	pěti	pět	NUM	_	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	22	nummod	_	NER=O
+22	let	rok	NOUN	_	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	17	obl	_	NER=O
+23	svého	svůj	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	NER=O
+24	trvání	trvání	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	22	nmod	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3.s5
+# text = Tato úprava se vztahuje na pojištění sjednané podle občanského zákoníku, které spadá do odvětví životního pojištění podle zákona o pojišťovnictví.
+1	Tato	tento	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	NER=O
+2	úprava	úprava	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	NER=O
+3	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	NER=O
+4	vztahuje	vztahovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+5	na	na	ADP	_	AdpType=Prep|Case=Acc	6	case	_	NER=O
+6	pojištění	pojištění	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	4	obl:arg	_	NER=O
+7	sjednané	sjednaný	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	NER=O
+8	podle	podle	ADP	_	AdpType=Prep|Case=Gen	10	case	_	NER=O
+9	občanského	občanský	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	_	NER=O
+10	zákoníku	zákoník	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	NER=O
+12	které	který	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	13	nsubj	_	NER=O
+13	spadá	spadat	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	NER=O
+14	do	do	ADP	_	AdpType=Prep|Case=Gen	15	case	_	NER=O
+15	odvětví	odvětví	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	13	obl	_	NER=O
+16	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	amod	_	NER=O
+17	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	15	nmod	_	NER=O
+18	podle	podle	ADP	_	AdpType=Prep|Case=Gen	19	case	_	NER=O
+19	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	13	obl	_	NER=O
+20	o	o	ADP	_	AdpType=Prep|Case=Loc	21	case	_	NER=O
+21	pojišťovnictví	pojišťovnictví	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	19	nmod	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p3.s6
+# text = Zákon zároveň stanovuje výjimky, na základě kterých se tato regulace neuplatní u životních pojištění rovnoměrně vyplácenou provizí a u životních pojištění s jednorázovým pojistným.
+1	Zákon	zákon	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj	_	NER=O
+2	zároveň	zároveň	ADV	_	_	3	advmod	_	NER=O
+3	stanovuje	stanovovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	výjimky	výjimka	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	3	obj	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	12	punct	_	NER=O
+6	na	na	ADP	_	AdpType=Prep|Case=Loc	8	case	_	NER=O
+7	základě	základ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	6	fixed	_	NER=O
+8	kterých	který	DET	_	Case=Gen|Number=Plur|PronType=Int,Rel	12	obl	_	NER=O
+9	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	expl:pass	_	NER=O
+10	tato	tento	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	NER=O
+11	regulace	regulace	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	12	nsubj:pass	_	NER=O
+12	neuplatní	uplatnit	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	NER=O
+13	u	u	ADP	_	AdpType=Prep|Case=Gen	15	case	_	NER=O
+14	životních	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	15	amod	_	NER=O
+15	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	12	obl	_	NER=O
+16	rovnoměrně	rovnoměrně	ADV	_	Degree=Pos|Polarity=Pos	17	advmod	_	NER=O
+17	vyplácenou	vyplácený	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	18	amod	_	NER=O
+18	provizí	provize	NOUN	_	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	12	obl	_	NER=O
+19	a	a	CCONJ	_	_	22	cc	_	NER=O
+20	u	u	ADP	_	AdpType=Prep|Case=Gen	22	case	_	NER=O
+21	životních	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	22	amod	_	NER=O
+22	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	12	conj	_	NER=O
+23	s	s	ADP	_	AdpType=Prep|Case=Ins	25	case	_	NER=O
+24	jednorázovým	jednorázový	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	25	amod	_	NER=O
+25	pojistným	pojistné	NOUN	_	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	22	nmod	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p4
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p4.s1
+# text = Předmětem nové úpravy odkupného je pravidlo o povinném rozložení pořizovacích nákladů pojišťovny na sjednání životního pojištění do určitého minimálního počtu let tak, aby při předčasném ukončení smlouvy mohla být na odkupném klientům vyplacena vyšší částka, než je tomu v současnosti.
+1	Předmětem	předmět	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O
+2	nové	nový	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	NER=O
+3	úpravy	úprava	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	_	NER=O
+4	odkupného	odkupný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	_	NER=O
+5	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O
+6	pravidlo	pravidlo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	nsubj	_	NER=O
+7	o	o	ADP	_	AdpType=Prep|Case=Loc	9	case	_	NER=O
+8	povinném	povinný	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	9	amod	_	NER=O
+9	rozložení	rozložení	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
+10	pořizovacích	pořizovací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	11	amod	_	NER=O
+11	nákladů	náklad	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	9	nmod	_	NER=O
+12	pojišťovny	pojišťovna	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	_	NER=O
+13	na	na	ADP	_	AdpType=Prep|Case=Acc	14	case	_	NER=O
+14	sjednání	sjednání	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	9	nmod	_	NER=O
+15	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	16	amod	_	NER=O
+16	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	14	nmod	_	NER=O
+17	do	do	ADP	_	AdpType=Prep|Case=Gen	20	case	_	NER=O
+18	určitého	určitý	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	_	NER=O
+19	minimálního	minimální	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	_	NER=O
+20	počtu	počet	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	9	nmod	_	NER=O
+21	let	rok	NOUN	_	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	20	nmod	_	NER=O
+22	tak	tak	ADV	_	PronType=Dem	1	advmod	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	_	_	30	punct	_	NER=O
+24-25	aby	_	_	_	_	_	_	_	NER=O
+24	aby	aby	SCONJ	_	_	30	mark	_	_
+25	by	být	AUX	_	Mood=Cnd|Person=3|VerbForm=Fin	30	aux	_	_
+26	při	při	ADP	_	AdpType=Prep|Case=Loc	28	case	_	NER=O
+27	předčasném	předčasný	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	28	amod	_	NER=O
+28	ukončení	ukončení	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	30	obl	_	NER=O
+29	smlouvy	smlouva	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	28	nmod	_	NER=O
+30	mohla	moci	VERB	_	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	NER=O
+31	být	být	AUX	_	Polarity=Pos|VerbForm=Inf	35	aux:pass	_	NER=O
+32	na	na	ADP	_	AdpType=Prep|Case=Loc	34	case	_	NER=O
+33	odkupném	odkupný	ADJ	_	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	34	amod	_	NER=O
+34	klientům	klient	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	35	obl	_	NER=O
+35	vyplacena	vyplacený	ADJ	_	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	30	obj	_	NER=O
+36	vyšší	vysoký	ADJ	_	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	37	amod	_	NER=O
+37	částka	částka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	30	nsubj	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	_	_	40	punct	_	NER=O
+39	než	než	SCONJ	_	_	40	mark	_	NER=O
+40	je	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	NER=O
+41	tomu	ten	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	40	nsubj	_	NER=O
+42	v	v	ADP	_	AdpType=Prep|Case=Loc	43	case	_	NER=O
+43	současnosti	současnost	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	40	obl	_	NER=O|SpaceAfter=No
+44	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p4.s2
+# text = V tomto případě se úprava vztahuje logicky pouze na ta životní pojištění, která podle pojistné smlouvy zakládají právo na výplatu odkupného.
+1	V	v	ADP	_	AdpType=Prep|Case=Loc	3	case	_	NER=O
+2	tomto	tento	DET	_	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	NER=O
+3	případě	případ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	_	NER=O
+4	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	_	NER=O
+5	úprava	úprava	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj	_	NER=O
+6	vztahuje	vztahovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+7	logicky	logicky	ADV	_	Degree=Pos|Polarity=Pos	6	advmod	_	NER=O
+8	pouze	pouze	ADV	_	_	12	advmod:emph	_	NER=O
+9	na	na	ADP	_	AdpType=Prep|Case=Acc	12	case	_	NER=O
+10	ta	ten	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	12	det	_	NER=O
+11	životní	životní	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	12	amod	_	NER=O
+12	pojištění	pojištění	NOUN	_	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	6	obl:arg	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	NER=O
+14	která	který	DET	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	18	nsubj	_	NER=O
+15	podle	podle	ADP	_	AdpType=Prep|Case=Gen	17	case	_	NER=O
+16	pojistné	pojistný	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	_	NER=O
+17	smlouvy	smlouva	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	18	obl	_	NER=O
+18	zakládají	zakládat	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	NER=O
+19	právo	právo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	18	obj	_	NER=O
+20	na	na	ADP	_	AdpType=Prep|Case=Acc	21	case	_	NER=O
+21	výplatu	výplata	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	19	nmod	_	NER=O
+22	odkupného	odkupný	ADJ	_	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p4.s3
+# text = Tyto dva prvky mají za cíl na straně jedné zainteresovat pojišťovací zprostředkovatele na dlouhodobém trvání zprostředkovaného životního pojištění a na straně druhé zajistit, že při předčasném ukončení pojištění bude pojistníkovi větší část zaplaceného pojistného vrácena zpět v podobě odkupného.
+1	Tyto	tento	DET	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	NER=O
+2	dva	dva	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	3	nummod	_	NER=O
+3	prvky	prvek	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	4	nsubj	_	NER=O
+4	mají	mít	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+5	za	za	ADP	_	AdpType=Prep|Case=Acc	6	case	_	NER=O
+6	cíl	cíl	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obl:arg	_	NER=O
+7	na	na	ADP	_	AdpType=Prep|Case=Loc	8	case	_	NER=O
+8	straně	strana	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	NER=O
+9	jedné	jeden	NUM	_	Case=Loc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	8	nummod	_	NER=O
+10	zainteresovat	zainteresovat	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	NER=O
+11	pojišťovací	pojišťovací	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	12	amod	_	NER=O
+12	zprostředkovatele	zprostředkovatel	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	10	obj	_	NER=O
+13	na	na	ADP	_	AdpType=Prep|Case=Loc	15	case	_	NER=O
+14	dlouhodobém	dlouhodobý	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	15	amod	_	NER=O
+15	trvání	trvání	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	10	obl	_	NER=O
+16	zprostředkovaného	zprostředkovaný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	18	amod	_	NER=O
+17	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	18	amod	_	NER=O
+18	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	15	nmod	_	NER=O
+19	a	a	CCONJ	_	_	23	cc	_	NER=O
+20	na	na	ADP	_	AdpType=Prep|Case=Loc	21	case	_	NER=O
+21	straně	strana	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	23	obl	_	NER=O
+22	druhé	druhý	ADJ	_	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	NER=O
+23	zajistit	zajistit	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	conj	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	_	_	36	punct	_	NER=O
+25	že	že	SCONJ	_	_	36	mark	_	NER=O
+26	při	při	ADP	_	AdpType=Prep|Case=Loc	28	case	_	NER=O
+27	předčasném	předčasný	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	28	amod	_	NER=O
+28	ukončení	ukončení	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	36	obl	_	NER=O
+29	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	28	nmod	_	NER=O
+30	bude	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	36	aux:pass	_	NER=O
+31	pojistníkovi	pojistník	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	36	obl:arg	_	NER=O
+32	větší	velký	ADJ	_	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	33	amod	_	NER=O
+33	část	část	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	36	nsubj:pass	_	NER=O
+34	zaplaceného	zaplacený	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	35	amod	_	NER=O
+35	pojistného	pojistné	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	33	nmod	_	NER=O
+36	vrácena	vrácený	ADJ	_	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	23	obj	_	NER=O
+37	zpět	zpět	ADV	_	_	36	advmod	_	NER=O
+38	v	v	ADP	_	AdpType=Prep|Case=Loc	39	case	_	NER=O
+39	podobě	podoba	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	36	obl	_	NER=O
+40	odkupného	odkupný	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	39	amod	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p5
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u2.p5.s1
+# text = Děkuji za pozornost.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	za	za	ADP	_	AdpType=Prep|Case=Acc	3	case	_	NER=O
+3	pozornost	pozornost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p1
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p1.s1
+# text = Pane předsedající, dámy a pánové, dobrý den.
+1	Pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+2	předsedající	předsedající	ADJ	_	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	NER=O
+4	dámy	dáma	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	2	conj	_	NER=O
+5	a	a	CCONJ	_	_	6	cc	_	NER=O
+6	pánové	pán	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur|Polarity=Pos	4	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	NER=O
+8	dobrý	dobrý	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	NER=O
+9	den	den	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p1.s2
+# text = Já jsem při posledním projednávání tohoto zákona nehlasoval pro pozměňovací návrh pana poslance Šincla, a to z jednoho prostého důvodu.
+1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=O
+2	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	NER=O
+3	při	při	ADP	_	AdpType=Prep|Case=Loc	5	case	_	NER=O
+4	posledním	poslední	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	projednávání	projednávání	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	8	obl	_	NER=O
+6	tohoto	tento	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	7	det	_	NER=O
+7	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	NER=O
+8	nehlasoval	hlasovat	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+9	pro	pro	ADP	_	AdpType=Prep|Case=Acc	11	case	_	NER=O
+10	pozměňovací	pozměňovací	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	amod	_	NER=O
+11	návrh	návrh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	8	obl	_	NER=O
+12	pana	pan	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	11	nmod	_	NER=O
+13	poslance	poslanec	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	12	nmod	_	NER=O
+14	Šincla	Šincl	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	13	flat	_	NER=B-PER|SpaceAfter=No
+15	,	,	PUNCT	_	_	21	punct	_	NER=O
+16	a	a	CCONJ	_	_	21	cc	_	NER=O
+17	to	to	PART	_	_	16	fixed	_	NER=O
+18	z	z	ADP	_	AdpType=Prep|Case=Gen	21	case	_	NER=O
+19	jednoho	jeden	NUM	_	Case=Gen|Gender=Masc,Neut|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	21	nummod	_	NER=O
+20	prostého	prostý	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	_	NER=O
+21	důvodu	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	8	obl	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p1.s3
+# text = Já jsem se setkal se zástupcem jedné z našich největších pojišťoven a chtěl jsem s ním ten pozměňovací návrh projednat.
+1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	NER=O
+2	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	NER=O
+3	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	NER=O
+4	setkal	setkat	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+5	se	s	ADP	_	AdpType=Voc|Case=Ins	6	case	_	NER=O
+6	zástupcem	zástupce	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	obl:arg	_	NER=O
+7	jedné	jeden	NUM	_	Case=Gen|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	6	nummod	_	NER=O
+8	z	z	ADP	_	AdpType=Prep|Case=Gen	11	case	_	NER=O
+9	našich	můj	DET	_	Case=Gen|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	NER=O
+10	největších	velký	ADJ	_	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur|Polarity=Pos	11	amod	_	NER=O
+11	pojišťoven	pojišťovna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	7	nmod	_	NER=O
+12	a	a	CCONJ	_	_	13	cc	_	NER=O
+13	chtěl	chtít	VERB	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	NER=O
+14	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	NER=O
+15	s	s	ADP	_	AdpType=Prep|Case=Ins	16	case	_	NER=O
+16	ním	on	PRON	_	Case=Ins|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	20	obl:arg	_	NER=O
+17	ten	ten	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	NER=O
+18	pozměňovací	pozměňovací	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	19	amod	_	NER=O
+19	návrh	návrh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	20	obj	_	NER=O
+20	projednat	projednat	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p1.s4
+# text = Z té debaty jsem usoudil, že pojišťovnám je naprosto jedno, co my schválíme a jak tento trh omezíme.
+1	Z	z	ADP	_	AdpType=Prep|Case=Gen	3	case	_	NER=O
+2	té	ten	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	NER=O
+3	debaty	debata	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	obl	_	NER=O
+4	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	NER=O
+5	usoudil	usoudit	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	NER=O
+7	že	že	SCONJ	_	_	11	mark	_	NER=O
+8	pojišťovnám	pojišťovna	NOUN	_	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	11	obl:arg	_	NER=O
+9	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	NER=O
+10	naprosto	naprosto	ADV	_	_	11	advmod	_	NER=O
+11	jedno	jeden	NUM	_	Case=Nom|Gender=Neut|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	5	ccomp	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	NER=O
+13	co	co	PRON	_	Animacy=Inan|Case=Acc|PronType=Int,Rel	15	obj	_	NER=O
+14	my	já	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	NER=O
+15	schválíme	schválit	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	csubj	_	NER=O
+16	a	a	CCONJ	_	_	20	cc	_	NER=O
+17	jak	jak	ADV	_	PronType=Int,Rel	20	advmod	_	NER=O
+18	tento	tento	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	NER=O
+19	trh	trh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	20	obj	_	NER=O
+20	omezíme	omezit	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p1.s5
+# text = Ten problém je daleko hlubší.
+1	Ten	ten	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	NER=O
+2	problém	problém	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	_	NER=O
+3	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
+4	daleko	daleko	ADV	_	Degree=Pos|Polarity=Pos	5	advmod	_	NER=O
+5	hlubší	hluboký	ADJ	_	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2.s1
+# text = Takže vítám znovuotevření tohoto zákona, tohoto návrhu, a věřím, že se nám podaří tuto oblast jakýmsi způsobem regulovat, neboť je to záležitost, které tady Sněmovna sama asistuje tím, že láká osoby do tohoto systému životního pojištění.
+1	Takže	takže	SCONJ	_	_	2	mark	_	NER=O
+2	vítám	vítat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	znovuotevření	znovuotevření	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	2	obj	_	NER=O
+4	tohoto	tento	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	5	det	_	NER=O
+5	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	NER=O
+7	tohoto	tento	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	8	det	_	NER=O
+8	návrhu	návrh	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	conj	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	NER=O
+10	a	a	CCONJ	_	_	11	cc	_	NER=O
+11	věřím	věřit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	NER=O
+13	že	že	SCONJ	_	_	16	mark	_	NER=O
+14	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	16	expl:pv	_	NER=O
+15	nám	já	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	obl:arg	_	NER=O
+16	podaří	podařit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	NER=O
+17	tuto	tento	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	NER=O
+18	oblast	oblast	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	21	obj	_	NER=O
+19	jakýmsi	jakýsi	DET	_	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Ind	20	det	_	NER=O
+20	způsobem	způsob	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	21	obl	_	NER=O
+21	regulovat	regulovat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	csubj	_	NER=O|SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	NER=O
+23	neboť	neboť	CCONJ	_	_	26	cc	_	NER=O
+24	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	NER=O
+25	to	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	nsubj	_	NER=O
+26	záležitost	záležitost	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	_	_	32	punct	_	NER=O
+28	které	který	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Int,Rel	32	obj	_	NER=O
+29	tady	tady	ADV	_	PronType=Dem	32	advmod	_	NER=O
+30	Sněmovna	sněmovna	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	32	nsubj	_	NER=B-ORG
+31	sama	sám	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	30	xcomp	_	NER=O
+32	asistuje	asistovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	NER=O
+33	tím	ten	DET	_	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	32	obl	_	NER=O|SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	NER=O
+35	že	že	SCONJ	_	_	36	mark	_	NER=O
+36	láká	lákat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl	_	NER=O
+37	osoby	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	36	obj	_	NER=O
+38	do	do	ADP	_	AdpType=Prep|Case=Gen	40	case	_	NER=O
+39	tohoto	tento	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	40	det	_	NER=O
+40	systému	systém	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	36	obl	_	NER=O
+41	životního	životní	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	42	amod	_	NER=O
+42	pojištění	pojištění	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	40	nmod	_	NER=O|SpaceAfter=No
+43	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2.s2
+# text = Les se sází na 70 let, až se celý zasází, pak tam není místo pro nové stromy, jedině za předpokladu, že se nějaký strom skácí.
+1	Les	les	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj	_	NER=O
+2	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	NER=O
+3	sází	sázet	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	na	na	ADP	_	AdpType=Prep|Case=Acc	6	case	_	NER=O
+5	70	70	NUM	_	NumForm=Digit|NumType=Card	6	nummod:gov	_	NER=O
+6	let	rok	NOUN	_	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	3	obl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	NER=O
+8	až	až	SCONJ	_	_	11	mark	_	NER=O
+9	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pass	_	NER=O
+10	celý	celý	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	nsubj:pass	_	NER=O
+11	zasází	zasázet	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	NER=O
+13	pak	pak	ADV	_	_	15	advmod	_	NER=O
+14	tam	tam	ADV	_	PronType=Dem	15	advmod	_	NER=O
+15	není	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	NER=O
+16	místo	místo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	15	nsubj	_	NER=O
+17	pro	pro	ADP	_	AdpType=Prep|Case=Acc	19	case	_	NER=O
+18	nové	nový	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	_	NER=O
+19	stromy	strom	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	16	nmod	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	NER=O
+21	jedině	jedině	ADV	_	Degree=Pos|Polarity=Pos	23	advmod:emph	_	NER=O
+22	za	za	ADP	_	AdpType=Prep|Case=Gen	23	case	_	NER=O
+23	předpokladu	předpoklad	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	15	obl	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	_	_	29	punct	_	NER=O
+25	že	že	SCONJ	_	_	29	mark	_	NER=O
+26	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	29	expl:pv	_	NER=O
+27	nějaký	nějaký	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	28	det	_	NER=O
+28	strom	strom	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	29	nsubj	_	NER=O
+29	skácí	skácet	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2.s3
+# text = Ale tady jsou hospodáři, kteří by nejraději co pět roků les celý vykáceli a znovu ho zasadili.
+1	Ale	ale	CCONJ	_	_	3	cc	_	NER=O
+2	tady	tady	ADV	_	PronType=Dem	3	advmod	_	NER=O
+3	jsou	být	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	hospodáři	hospodář	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	3	nsubj	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	14	punct	_	NER=O
+6	kteří	který	DET	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	14	nsubj	_	NER=O
+7	by	být	AUX	_	Mood=Cnd|VerbForm=Fin	14	aux	_	NER=O
+8	nejraději	raději	ADV	_	Degree=Sup|Polarity=Pos	14	advmod	_	NER=O
+9	co	co	ADV	_	_	10	advmod:emph	_	NER=O
+10	pět	pět	NUM	_	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	11	nummod:gov	_	NER=O
+11	roků	rok	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	14	obl	_	NER=O
+12	les	les	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	14	obj	_	NER=O
+13	celý	celý	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	amod	_	NER=O
+14	vykáceli	vykácet	VERB	_	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	acl:relcl	_	NER=O
+15	a	a	CCONJ	_	_	18	cc	_	NER=O
+16	znovu	znovu	ADV	_	_	18	advmod	_	NER=O
+17	ho	on	PRON	_	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	18	obj	_	NER=O
+18	zasadili	zasadit	VERB	_	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	conj	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2.s4
+# text = Ale užitek z toho mají pouze oni za zprostředkovatelské provize.
+1	Ale	ale	CCONJ	_	_	5	cc	_	NER=O
+2	užitek	užitek	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	obj	_	NER=O
+3	z	z	ADP	_	AdpType=Prep|Case=Gen	4	case	_	NER=O
+4	toho	ten	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	2	det	_	NER=O
+5	mají	mít	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+6	pouze	pouze	ADV	_	_	7	advmod:emph	_	NER=O
+7	oni	on	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	NER=O
+8	za	za	ADP	_	AdpType=Prep|Case=Acc	10	case	_	NER=O
+9	zprostředkovatelské	zprostředkovatelský	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	10	amod	_	NER=O
+10	provize	provize	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	obl	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2.s5
+# text = Tohle je špatný stav a já věřím, že se nám ho podaří narovnat.
+1	Tohle	tenhle	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	NER=O
+2	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	NER=O
+3	špatný	špatný	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	NER=O
+4	stav	stav	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O
+5	a	a	CCONJ	_	_	7	cc	_	NER=O
+6	já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	NER=O
+7	věřím	věřit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	NER=O
+9	že	že	SCONJ	_	_	13	mark	_	NER=O
+10	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pv	_	NER=O
+11	nám	já	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	obl:arg	_	NER=O
+12	ho	on	PRON	_	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	14	obj	_	NER=O
+13	podaří	podařit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	NER=O
+14	narovnat	narovnat	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	csubj	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u22.p2.s6
+# text = Děkuji.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s1
+# text = Děkuji panu poslanci Kudelovi.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	panu	pan	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O
+3	poslanci	poslanec	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	nsubj	_	NER=O
+4	Kudelovi	Kudel	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	flat	_	NER=B-PER|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s2
+# text = To byl zatím poslední přihlášený do rozpravy.
+1	To	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	NER=O
+2	byl	být	AUX	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	NER=O
+3	zatím	zatím	ADV	_	_	5	advmod	_	NER=O
+4	poslední	poslední	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	přihlášený	přihlášený	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O
+6	do	do	ADP	_	AdpType=Prep|Case=Gen	7	case	_	NER=O
+7	rozpravy	rozprava	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	obl	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s3
+# text = Pokud se nikdo nehlásí, rozpravu končím.
+1	Pokud	pokud	SCONJ	_	_	4	mark	_	NER=O
+2	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	NER=O
+3	nikdo	nikdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Neg	4	nsubj	_	NER=O
+4	nehlásí	hlásit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	NER=O
+6	rozpravu	rozprava	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	7	obj	_	NER=O
+7	končím	končit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s4
+# text = Ptám se, jestli je zájem o závěrečné slovo - pane ministře?
+1	Ptám	ptát	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	NER=O
+4	jestli	jestli	SCONJ	_	_	5	mark	_	NER=O
+5	je	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	NER=O
+6	zájem	zájem	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	_	NER=O
+7	o	o	ADP	_	AdpType=Prep|Case=Acc	9	case	_	NER=O
+8	závěrečné	závěrečný	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	9	amod	_	NER=O
+9	slovo	slovo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
+10	-	-	PUNCT	_	_	1	punct	_	NER=O
+11	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	12	nmod	_	NER=O
+12	ministře	ministr	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	5	vocative	_	NER=O|SpaceAfter=No
+13	?	?	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s5
+# text = Není tomu tak.
+1	Není	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	tomu	ten	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	1	nsubj	_	NER=O
+3	tak	tak	ADV	_	PronType=Dem	1	advmod	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s6
+# text = Pan zpravodaj?
+1	Pan	pan	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+2	zpravodaj	zpravodaj	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	NER=O|SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p1.s7
+# text = Taky nechce.
+1	Taky	také	ADV	_	_	2	advmod	_	NER=O
+2	nechce	chtít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p2
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p2.s1
+# text = Máme tady návrh na zamítnutí.
+1	Máme	mít	VERB	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	tady	tady	ADV	_	PronType=Dem	1	advmod	_	NER=O
+3	návrh	návrh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	obj	_	NER=O
+4	na	na	ADP	_	AdpType=Prep|Case=Acc	5	case	_	NER=O
+5	zamítnutí	zamítnutí	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	3	nmod	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p2.s2
+# text = Ještě předtím, než se budeme dál zabývat případným rozhodnutím o přikázání výborům, musíme rozhodnout o tomto návrhu.
+1	Ještě	ještě	ADV	_	_	2	advmod:emph	_	NER=O
+2	předtím	předtím	ADV	_	_	15	advmod	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	NER=O
+4	než	než	SCONJ	_	_	8	mark	_	NER=O
+5	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	8	expl:pv	_	NER=O
+6	budeme	být	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	8	aux	_	NER=O
+7	dál	dále	ADV	_	_	8	advmod	_	NER=O
+8	zabývat	zabývat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	advcl	_	NER=O
+9	případným	případný	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	10	amod	_	NER=O
+10	rozhodnutím	rozhodnutí	NOUN	_	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	8	obl:arg	_	NER=O
+11	o	o	ADP	_	AdpType=Prep|Case=Loc	12	case	_	NER=O
+12	přikázání	přikázání	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	10	nmod	_	NER=O
+13	výborům	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	12	nmod	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	_	_	8	punct	_	NER=O
+15	musíme	muset	VERB	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+16	rozhodnout	rozhodnout	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	NER=O
+17	o	o	ADP	_	AdpType=Prep|Case=Loc	19	case	_	NER=O
+18	tomto	tento	DET	_	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	19	det	_	NER=O
+19	návrhu	návrh	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	16	obl:arg	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	_	_	15	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p2.s3
+# text = Zagonguji a všechny vás odhlásím.
+1	Zagonguji	zagongovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	a	a	CCONJ	_	_	5	cc	_	NER=O
+3	všechny	všechen	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	5	obj	_	NER=O
+4	vás	ty	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	obj	_	NER=O
+5	odhlásím	odhlásit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p2.s4
+# text = Požádám vás o novou registraci.
+1	Požádám	požádat	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	vás	ty	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	_	NER=O
+3	o	o	ADP	_	AdpType=Prep|Case=Acc	5	case	_	NER=O
+4	novou	nový	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	registraci	registrace	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p2.s5
+# text = Prosím, přihlaste se svými identifikačními kartami.
+1	Prosím	prosit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	NER=O
+3	přihlaste	přihlasit	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	conj	_	NER=O
+4	se	s	ADP	_	AdpType=Voc|Case=Ins	7	case	_	NER=O
+5	svými	svůj	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	NER=O
+6	identifikačními	identifikační	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	7	amod	_	NER=O
+7	kartami	karta	NOUN	_	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	3	obl:arg	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p3
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p3.s1
+# text = O návrhu na zamítnutí návrhu zákona o pojišťovacích zprostředkovatelích rozhodneme v hlasování pořadové číslo 106, které jsem právě zahájil, a ptám se, kdo je pro zamítnutí.
+1	O	o	ADP	_	AdpType=Prep|Case=Loc	2	case	_	NER=O
+2	návrhu	návrh	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	10	obl:arg	_	NER=O
+3	na	na	ADP	_	AdpType=Prep|Case=Acc	4	case	_	NER=O
+4	zamítnutí	zamítnutí	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+5	návrhu	návrh	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	NER=O
+6	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	NER=O
+7	o	o	ADP	_	AdpType=Prep|Case=Loc	9	case	_	NER=O
+8	pojišťovacích	pojišťovací	ADJ	_	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	_	NER=O
+9	zprostředkovatelích	zprostředkovatel	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	6	nmod	_	NER=O
+10	rozhodneme	rozhodnout	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+11	v	v	ADP	_	AdpType=Prep|Case=Loc	12	case	_	NER=O
+12	hlasování	hlasování	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	10	obl	_	NER=O
+13	pořadové	pořadový	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	14	amod	_	NER=O
+14	číslo	číslo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	10	obj	_	NER=O
+15	106	106	NUM	_	NumForm=Digit|NumType=Card	14	nummod	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	NER=O
+17	které	který	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obj	_	NER=O
+18	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	NER=O
+19	právě	právě	ADV	_	_	20	advmod	_	NER=O
+20	zahájil	zahájit	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	acl:relcl	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	NER=O
+22	a	a	CCONJ	_	_	23	cc	_	NER=O
+23	ptám	ptát	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	NER=O
+24	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	23	expl:pv	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	NER=O
+26	kdo	kdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	27	nsubj	_	NER=O
+27	je	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	NER=O
+28	pro	pro	ADP	_	AdpType=Prep|Case=Acc	29	case	_	NER=O
+29	zamítnutí	zamítnutí	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	27	obl	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	_	_	10	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p3.s2
+# text = Kdo je proti zamítnutí?
+1	Kdo	kdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	2	nsubj	_	NER=O
+2	je	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	proti	proti	ADP	_	AdpType=Prep|Case=Dat	4	case	_	NER=O
+4	zamítnutí	zamítnutí	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	2	obl	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p3.s3
+# text = Děkuji vám.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	vám	ty	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p4
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p4.s1
+# text = V hlasování pořadové číslo 106 přihlášeno 133 poslanců, pro 31, proti 86.
+1	V	v	ADP	_	AdpType=Prep|Case=Loc	2	case	_	NER=O
+2	hlasování	hlasování	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	6	obl	_	NER=O
+3	pořadové	pořadový	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	NER=O
+4	číslo	číslo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	nmod	_	NER=O
+5	106	106	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	NER=O
+6	přihlášeno	přihlášený	ADJ	_	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+7	133	133	NUM	_	NumForm=Digit|NumType=Card	8	nummod:gov	_	NER=O
+8	poslanců	poslanec	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	nsubj:pass	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	NER=O
+10	pro	pro	ADP	_	AdpType=Prep|Case=Acc	11	case	_	NER=O
+11	31	31	NUM	_	NumForm=Digit|NumType=Card	6	conj	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	NER=O
+13	proti	proti	ADP	_	AdpType=Prep|Case=Dat	14	case	_	NER=O
+14	86	86	NUM	_	NumForm=Digit|NumType=Card	11	orphan	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p4.s2
+# text = Návrh nebyl přijat.
+1	Návrh	návrh	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj:pass	_	NER=O
+2	nebyl	být	AUX	_	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	NER=O
+3	přijat	přijatý	ADJ	_	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p5
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p5.s1
+# text = Budeme se tedy zabývat návrhem na přikázání výborům k projednání.
+1	Budeme	být	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	aux	_	NER=O
+2	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	NER=O
+3	tedy	tedy	ADV	_	_	4	advmod	_	NER=O
+4	zabývat	zabývat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	NER=O
+5	návrhem	návrh	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	obl:arg	_	NER=O
+6	na	na	ADP	_	AdpType=Prep|Case=Acc	7	case	_	NER=O
+7	přikázání	přikázání	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	5	nmod	_	NER=O
+8	výborům	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	7	nmod	_	NER=O
+9	k	k	ADP	_	AdpType=Prep|Case=Dat	10	case	_	NER=O
+10	projednání	projednání	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	7	nmod	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p5.s2
+# text = Nejprve rozhodneme o přikázání garančnímu výboru.
+1	Nejprve	nejprve	ADV	_	_	2	advmod	_	NER=O
+2	rozhodneme	rozhodnout	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	o	o	ADP	_	AdpType=Prep|Case=Loc	4	case	_	NER=O
+4	přikázání	přikázání	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	2	obl:arg	_	NER=O
+5	garančnímu	garanční	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	NER=O
+6	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p5.s3
+# text = Organizační výbor navrhl přikázat předložený návrh k projednání rozpočtovému výboru jako výboru garančnímu.
+1	Organizační	organizační	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	NER=O
+2	výbor	výbor	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj	_	NER=O
+3	navrhl	navrhnout	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+4	přikázat	přikázat	VERB	_	Polarity=Pos|VerbForm=Inf	3	xcomp	_	NER=O
+5	předložený	předložený	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	NER=O
+6	návrh	návrh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obj	_	NER=O
+7	k	k	ADP	_	AdpType=Prep|Case=Dat	8	case	_	NER=O
+8	projednání	projednání	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
+9	rozpočtovému	rozpočtový	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	_	NER=O
+10	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	nmod	_	NER=O
+11	jako	jako	SCONJ	_	_	12	mark	_	NER=O
+12	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	10	xcomp	_	NER=O
+13	garančnímu	garanční	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	amod	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p5.s4
+# text = Navrhuje někdo přikázání jinému výboru jako garančnímu?
+1	Navrhuje	navrhovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	někdo	někdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Ind	1	nsubj	_	NER=O
+3	přikázání	přikázání	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	1	obj	_	NER=O
+4	jinému	jiný	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	NER=O
+6	jako	jako	SCONJ	_	_	7	mark	_	NER=O
+7	garančnímu	garanční	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	xcomp	_	NER=O|SpaceAfter=No
+8	?	?	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p5.s5
+# text = Není tomu tak.
+1	Není	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	tomu	ten	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	1	nsubj	_	NER=O
+3	tak	tak	ADV	_	PronType=Dem	1	advmod	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p6
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p6.s1
+# text = Přistoupíme k hlasování pořadové číslo 107, které jsem zahájil, a ptám se, kdo je pro přikázání rozpočtovému výboru.
+1	Přistoupíme	přistoupit	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	k	k	ADP	_	AdpType=Prep|Case=Dat	3	case	_	NER=O
+3	hlasování	hlasování	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	1	obl	_	NER=O
+4	pořadové	pořadový	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	číslo	číslo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	1	obj	_	NER=O
+6	107	107	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	NER=O
+8	které	který	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obj	_	NER=O
+9	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	NER=O
+10	zahájil	zahájit	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	acl:relcl	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	NER=O
+12	a	a	CCONJ	_	_	13	cc	_	NER=O
+13	ptám	ptát	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	NER=O
+14	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pv	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	NER=O
+16	kdo	kdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	17	nsubj	_	NER=O
+17	je	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	NER=O
+18	pro	pro	ADP	_	AdpType=Prep|Case=Acc	19	case	_	NER=O
+19	přikázání	přikázání	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	17	obl	_	NER=O
+20	rozpočtovému	rozpočtový	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	_	NER=O
+21	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	19	nmod	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p6.s2
+# text = Kdo je proti?
+1	Kdo	kdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	2	nsubj	_	NER=O
+2	je	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	proti	proti	ADP	_	AdpType=Prep|Case=Dat	2	obl	_	NER=O|SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p6.s3
+# text = Děkuji vám.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	vám	ty	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p7
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p7.s1
+# text = V hlasování pořadové číslo 107 z přítomných 138 poslanců pro 125, bylo to přijato.
+1	V	v	ADP	_	AdpType=Prep|Case=Loc	2	case	_	NER=O
+2	hlasování	hlasování	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	15	obl	_	NER=O
+3	pořadové	pořadový	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	NER=O
+4	číslo	číslo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	dep	_	NER=O
+5	107	107	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	NER=O
+6	z	z	ADP	_	AdpType=Prep|Case=Gen	9	case	_	NER=O
+7	přítomných	přítomný	ADJ	_	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	_	NER=O
+8	138	138	NUM	_	NumForm=Digit|NumType=Card	9	nummod	_	NER=O
+9	poslanců	poslanec	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	4	nmod	_	NER=O
+10	pro	pro	ADP	_	AdpType=Prep|Case=Acc	11	case	_	NER=O
+11	125	125	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	NER=O
+13	bylo	být	AUX	_	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	15	aux:pass	_	NER=O
+14	to	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj:pass	_	NER=O
+15	přijato	přijatý	ADJ	_	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p7.s2
+# text = Konstatuji tedy, že tento návrh byl přikázán k projednání rozpočtovému výboru jako garančnímu výboru.
+1	Konstatuji	konstatovat	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	tedy	tedy	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	NER=O
+4	že	že	SCONJ	_	_	8	mark	_	NER=O
+5	tento	tento	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	NER=O
+6	návrh	návrh	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	8	nsubj:pass	_	NER=O
+7	byl	být	AUX	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	aux:pass	_	NER=O
+8	přikázán	přikázaný	ADJ	_	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	obj	_	NER=O
+9	k	k	ADP	_	AdpType=Prep|Case=Dat	10	case	_	NER=O
+10	projednání	projednání	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	8	obl	_	NER=O
+11	rozpočtovému	rozpočtový	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	amod	_	NER=O
+12	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	10	nmod	_	NER=O
+13	jako	jako	SCONJ	_	_	15	mark	_	NER=O
+14	garančnímu	garanční	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	15	amod	_	NER=O
+15	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	12	xcomp	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8.s1
+# text = Má někdo návrh na jiný výbor, kterému bychom přikázali tento tisk?
+1	Má	mít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	někdo	někdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Ind	1	nsubj	_	NER=O
+3	návrh	návrh	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	obj	_	NER=O
+4	na	na	ADP	_	AdpType=Prep|Case=Acc	6	case	_	NER=O
+5	jiný	jiný	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	NER=O
+6	výbor	výbor	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	NER=O
+8	kterému	který	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	10	obl:arg	_	NER=O
+9	bychom	být	AUX	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	10	aux	_	NER=O
+10	přikázali	přikázat	VERB	_	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	acl:relcl	_	NER=O
+11	tento	tento	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	NER=O
+12	tisk	tisk	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	10	obj	_	NER=O|SpaceAfter=No
+13	?	?	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8.s2
+# text = Není tomu tak.
+1	Není	být	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	tomu	ten	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	1	nsubj	_	NER=O
+3	tak	tak	ADV	_	PronType=Dem	1	advmod	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8.s3
+# text = Prosím pana zpravodaje, aby mě sledoval, jestli v rozpravě padla lhůta na zkrácení nebo prodloužení.
+1	Prosím	prosit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	pana	pan	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	iobj	_	NER=O
+3	zpravodaje	zpravodaj	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	iobj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	NER=O
+5-6	aby	_	_	_	_	_	_	_	NER=O
+5	aby	aby	SCONJ	_	_	8	mark	_	_
+6	by	být	AUX	_	Mood=Cnd|Person=3|VerbForm=Fin	8	aux	_	_
+7	mě	já	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	8	iobj	_	NER=O
+8	sledoval	sledovat	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	NER=O
+10	jestli	jestli	SCONJ	_	_	13	mark	_	NER=O
+11	v	v	ADP	_	AdpType=Prep|Case=Loc	12	case	_	NER=O
+12	rozpravě	rozprava	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	13	obl	_	NER=O
+13	padla	padnout	VERB	_	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	ccomp	_	NER=O
+14	lhůta	lhůta	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	13	nsubj	_	NER=O
+15	na	na	ADP	_	AdpType=Prep|Case=Acc	16	case	_	NER=O
+16	zkrácení	zkrácení	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	14	nmod	_	NER=O
+17	nebo	nebo	CCONJ	_	_	18	cc	_	NER=O
+18	prodloužení	prodloužení	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	16	conj	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8.s4
+# text = Ne, lhůta je tedy zachována podle zákona o jednacím řádu na 60 dnů.
+1	Ne	ne	PART	_	_	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	NER=O
+3	lhůta	lhůta	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj	_	NER=O
+4	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	NER=O
+5	tedy	tedy	ADV	_	_	6	advmod	_	NER=O
+6	zachována	zachovaný	ADJ	_	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	NER=O
+7	podle	podle	ADP	_	AdpType=Prep|Case=Gen	8	case	_	NER=O
+8	zákona	zákon	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	_	NER=O
+9	o	o	ADP	_	AdpType=Prep|Case=Loc	11	case	_	NER=O
+10	jednacím	jednací	ADJ	_	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	amod	_	NER=O
+11	řádu	řád	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	8	nmod	_	NER=O
+12	na	na	ADP	_	AdpType=Prep|Case=Acc	14	case	_	NER=O
+13	60	60	NUM	_	NumForm=Digit|NumType=Card	14	nummod:gov	_	NER=O
+14	dnů	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	obl	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8.s5
+# text = Máme tedy rozhodnuto o tom, že tisk 751 byl přikázán rozpočtovému výboru.
+1	Máme	mít	VERB	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	tedy	tedy	ADV	_	_	1	advmod	_	NER=O
+3	rozhodnuto	rozhodnutý	ADJ	_	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	obj	_	NER=O
+4	o	o	ADP	_	AdpType=Prep|Case=Loc	5	case	_	NER=O
+5	tom	ten	DET	_	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	obl:arg	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	NER=O
+7	že	že	SCONJ	_	_	11	mark	_	NER=O
+8	tisk	tisk	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	nsubj:pass	_	NER=O
+9	751	751	NUM	_	NumForm=Digit|NumType=Card	8	nummod	_	NER=O
+10	byl	být	AUX	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	aux:pass	_	NER=O
+11	přikázán	přikázaný	ADJ	_	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	amod	_	NER=O
+12	rozpočtovému	rozpočtový	ADJ	_	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	_	NER=O
+13	výboru	výbor	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	11	obl:arg	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p8.s6
+# text = Děkuji panu ministrovi, děkuji panu zpravodaji.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	panu	pan	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O
+3	ministrovi	ministr	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	NER=O
+5	děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	NER=O
+6	panu	pan	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	5	obl:arg	_	NER=O
+7	zpravodaji	zpravodaj	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	5	obl:arg	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p9
+# sent_id = ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.u23.p9.s1
+# text = Pokračovat budeme podle schváleného pořadu schůze bodem
+1	Pokračovat	pokračovat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	NER=O
+2	budeme	být	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	1	aux	_	NER=O
+3	podle	podle	ADP	_	AdpType=Prep|Case=Gen	5	case	_	NER=O
+4	schváleného	schválený	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	NER=O
+5	pořadu	pořad	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	1	obl	_	NER=O
+6	schůze	schůze	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj	_	NER=O
+7	bodem	bod	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	1	obl	_	NER=O
+
